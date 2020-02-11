@@ -6,6 +6,7 @@ import 'package:path_provider/path_provider.dart';
 
 void main() {
   runApp(MaterialApp(
+    debugShowCheckedModeBanner: false,
     home: Home(),
   ));
 }
@@ -85,7 +86,7 @@ class _HomeState extends State<Home> {
                     decoration: InputDecoration(
                         hintText: 'Tarefa',
                         hintStyle:
-                            TextStyle(fontSize: 20.0, color: Colors.black),
+                            TextStyle(fontSize: 20.0, color: Colors.grey),
                         labelText: 'Nova Tarefa',
                         labelStyle:
                             TextStyle(color: Colors.lightBlue, fontSize: 20.0)),
